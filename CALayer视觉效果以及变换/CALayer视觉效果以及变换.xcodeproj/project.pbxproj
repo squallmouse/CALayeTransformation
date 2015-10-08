@@ -14,6 +14,9 @@
 		EF80D34B1BC648610032EC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF80D3491BC648610032EC6C /* LaunchScreen.storyboard */; };
 		EF80D3561BC648610032EC6C /* CALayer________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80D3551BC648610032EC6C /* CALayer________Tests.swift */; };
 		EF80D3611BC648610032EC6C /* CALayer________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80D3601BC648610032EC6C /* CALayer________UITests.swift */; };
+		EF80D3701BC6500E0032EC6C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF80D36E1BC6500E0032EC6C /* 1.jpg */; settings = {ASSET_TAGS = (); }; };
+		EF80D3711BC6500E0032EC6C /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF80D36F1BC6500E0032EC6C /* 5.jpg */; settings = {ASSET_TAGS = (); }; };
+		EF80D3731BC6504C0032EC6C /* 66.png in Resources */ = {isa = PBXBuildFile; fileRef = EF80D3721BC6504C0032EC6C /* 66.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		EF80D35C1BC648610032EC6C /* CALayer视觉效果以及变换UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CALayer视觉效果以及变换UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF80D3601BC648610032EC6C /* CALayer________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer________UITests.swift"; sourceTree = "<group>"; };
 		EF80D3621BC648610032EC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF80D36E1BC6500E0032EC6C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		EF80D36F1BC6500E0032EC6C /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		EF80D3721BC6504C0032EC6C /* 66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 66.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		EF80D33F1BC648610032EC6C /* CALayer视觉效果以及变换 */ = {
 			isa = PBXGroup;
 			children = (
+				EF80D36E1BC6500E0032EC6C /* 1.jpg */,
+				EF80D36F1BC6500E0032EC6C /* 5.jpg */,
+				EF80D3721BC6504C0032EC6C /* 66.png */,
 				EF80D3401BC648610032EC6C /* AppDelegate.swift */,
 				EF80D3421BC648610032EC6C /* ViewController.swift */,
 				EF80D3441BC648610032EC6C /* Main.storyboard */,
@@ -229,6 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF80D34B1BC648610032EC6C /* LaunchScreen.storyboard in Resources */,
+				EF80D3731BC6504C0032EC6C /* 66.png in Resources */,
+				EF80D3711BC6500E0032EC6C /* 5.jpg in Resources */,
+				EF80D3701BC6500E0032EC6C /* 1.jpg in Resources */,
 				EF80D3481BC648610032EC6C /* Assets.xcassets in Resources */,
 				EF80D3461BC648610032EC6C /* Main.storyboard in Resources */,
 			);
@@ -483,6 +495,7 @@
 				EF80D3671BC648610032EC6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF80D3681BC648610032EC6C /* Build configuration list for PBXNativeTarget "CALayer视觉效果以及变换Tests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +504,7 @@
 				EF80D36A1BC648610032EC6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF80D36B1BC648610032EC6C /* Build configuration list for PBXNativeTarget "CALayer视觉效果以及变换UITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +513,7 @@
 				EF80D36D1BC648610032EC6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
