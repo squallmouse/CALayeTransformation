@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF80D3411BC648610032EC6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80D3401BC648610032EC6C /* AppDelegate.swift */; };
+		EF80D3431BC648610032EC6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80D3421BC648610032EC6C /* ViewController.swift */; };
+		EF80D3461BC648610032EC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF80D3441BC648610032EC6C /* Main.storyboard */; };
+		EF80D3481BC648610032EC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF80D3471BC648610032EC6C /* Assets.xcassets */; };
+		EF80D34B1BC648610032EC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF80D3491BC648610032EC6C /* LaunchScreen.storyboard */; };
+		EF80D3561BC648610032EC6C /* CALayer________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80D3551BC648610032EC6C /* CALayer________Tests.swift */; };
+		EF80D3611BC648610032EC6C /* CALayer________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80D3601BC648610032EC6C /* CALayer________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF80D3521BC648610032EC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF80D3351BC648610032EC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF80D33C1BC648610032EC6C;
+			remoteInfo = "CALayer视觉效果以及变换";
+		};
+		EF80D35D1BC648610032EC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF80D3351BC648610032EC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF80D33C1BC648610032EC6C;
+			remoteInfo = "CALayer视觉效果以及变换";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF80D33D1BC648610032EC6C /* CALayer视觉效果以及变换.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CALayer视觉效果以及变换.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF80D3401BC648610032EC6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF80D3421BC648610032EC6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF80D3451BC648610032EC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF80D3471BC648610032EC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF80D34A1BC648610032EC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF80D34C1BC648610032EC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF80D3511BC648610032EC6C /* CALayer视觉效果以及变换Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CALayer视觉效果以及变换Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF80D3551BC648610032EC6C /* CALayer________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer________Tests.swift"; sourceTree = "<group>"; };
+		EF80D3571BC648610032EC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF80D35C1BC648610032EC6C /* CALayer视觉效果以及变换UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CALayer视觉效果以及变换UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF80D3601BC648610032EC6C /* CALayer________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer________UITests.swift"; sourceTree = "<group>"; };
+		EF80D3621BC648610032EC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF80D33A1BC648610032EC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF80D34E1BC648610032EC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF80D3591BC648610032EC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF80D3341BC648610032EC6C = {
+			isa = PBXGroup;
+			children = (
+				EF80D33F1BC648610032EC6C /* CALayer视觉效果以及变换 */,
+				EF80D3541BC648610032EC6C /* CALayer视觉效果以及变换Tests */,
+				EF80D35F1BC648610032EC6C /* CALayer视觉效果以及变换UITests */,
+				EF80D33E1BC648610032EC6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF80D33E1BC648610032EC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF80D33D1BC648610032EC6C /* CALayer视觉效果以及变换.app */,
+				EF80D3511BC648610032EC6C /* CALayer视觉效果以及变换Tests.xctest */,
+				EF80D35C1BC648610032EC6C /* CALayer视觉效果以及变换UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF80D33F1BC648610032EC6C /* CALayer视觉效果以及变换 */ = {
+			isa = PBXGroup;
+			children = (
+				EF80D3401BC648610032EC6C /* AppDelegate.swift */,
+				EF80D3421BC648610032EC6C /* ViewController.swift */,
+				EF80D3441BC648610032EC6C /* Main.storyboard */,
+				EF80D3471BC648610032EC6C /* Assets.xcassets */,
+				EF80D3491BC648610032EC6C /* LaunchScreen.storyboard */,
+				EF80D34C1BC648610032EC6C /* Info.plist */,
+			);
+			path = "CALayer视觉效果以及变换";
+			sourceTree = "<group>";
+		};
+		EF80D3541BC648610032EC6C /* CALayer视觉效果以及变换Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF80D3551BC648610032EC6C /* CALayer________Tests.swift */,
+				EF80D3571BC648610032EC6C /* Info.plist */,
+			);
+			path = "CALayer视觉效果以及变换Tests";
+			sourceTree = "<group>";
+		};
+		EF80D35F1BC648610032EC6C /* CALayer视觉效果以及变换UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF80D3601BC648610032EC6C /* CALayer________UITests.swift */,
+				EF80D3621BC648610032EC6C /* Info.plist */,
+			);
+			path = "CALayer视觉效果以及变换UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF80D33C1BC648610032EC6C /* CALayer视觉效果以及变换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF80D3651BC648610032EC6C /* Build configuration list for PBXNativeTarget "CALayer视觉效果以及变换" */;
+			buildPhases = (
+				EF80D3391BC648610032EC6C /* Sources */,
+				EF80D33A1BC648610032EC6C /* Frameworks */,
+				EF80D33B1BC648610032EC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CALayer视觉效果以及变换";
+			productName = "CALayer视觉效果以及变换";
+			productReference = EF80D33D1BC648610032EC6C /* CALayer视觉效果以及变换.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF80D3501BC648610032EC6C /* CALayer视觉效果以及变换Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF80D3681BC648610032EC6C /* Build configuration list for PBXNativeTarget "CALayer视觉效果以及变换Tests" */;
+			buildPhases = (
+				EF80D34D1BC648610032EC6C /* Sources */,
+				EF80D34E1BC648610032EC6C /* Frameworks */,
+				EF80D34F1BC648610032EC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF80D3531BC648610032EC6C /* PBXTargetDependency */,
+			);
+			name = "CALayer视觉效果以及变换Tests";
+			productName = "CALayer视觉效果以及变换Tests";
+			productReference = EF80D3511BC648610032EC6C /* CALayer视觉效果以及变换Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF80D35B1BC648610032EC6C /* CALayer视觉效果以及变换UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF80D36B1BC648610032EC6C /* Build configuration list for PBXNativeTarget "CALayer视觉效果以及变换UITests" */;
+			buildPhases = (
+				EF80D3581BC648610032EC6C /* Sources */,
+				EF80D3591BC648610032EC6C /* Frameworks */,
+				EF80D35A1BC648610032EC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF80D35E1BC648610032EC6C /* PBXTargetDependency */,
+			);
+			name = "CALayer视觉效果以及变换UITests";
+			productName = "CALayer视觉效果以及变换UITests";
+			productReference = EF80D35C1BC648610032EC6C /* CALayer视觉效果以及变换UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF80D3351BC648610032EC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = squallomuse;
+				TargetAttributes = {
+					EF80D33C1BC648610032EC6C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					EF80D3501BC648610032EC6C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EF80D33C1BC648610032EC6C;
+					};
+					EF80D35B1BC648610032EC6C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EF80D33C1BC648610032EC6C;
+					};
+				};
+			};
+			buildConfigurationList = EF80D3381BC648610032EC6C /* Build configuration list for PBXProject "CALayer视觉效果以及变换" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF80D3341BC648610032EC6C;
+			productRefGroup = EF80D33E1BC648610032EC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF80D33C1BC648610032EC6C /* CALayer视觉效果以及变换 */,
+				EF80D3501BC648610032EC6C /* CALayer视觉效果以及变换Tests */,
+				EF80D35B1BC648610032EC6C /* CALayer视觉效果以及变换UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF80D33B1BC648610032EC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF80D34B1BC648610032EC6C /* LaunchScreen.storyboard in Resources */,
+				EF80D3481BC648610032EC6C /* Assets.xcassets in Resources */,
+				EF80D3461BC648610032EC6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF80D34F1BC648610032EC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF80D35A1BC648610032EC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF80D3391BC648610032EC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF80D3431BC648610032EC6C /* ViewController.swift in Sources */,
+				EF80D3411BC648610032EC6C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF80D34D1BC648610032EC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF80D3561BC648610032EC6C /* CALayer________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF80D3581BC648610032EC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF80D3611BC648610032EC6C /* CALayer________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF80D3531BC648610032EC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF80D33C1BC648610032EC6C /* CALayer视觉效果以及变换 */;
+			targetProxy = EF80D3521BC648610032EC6C /* PBXContainerItemProxy */;
+		};
+		EF80D35E1BC648610032EC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF80D33C1BC648610032EC6C /* CALayer视觉效果以及变换 */;
+			targetProxy = EF80D35D1BC648610032EC6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF80D3441BC648610032EC6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF80D3451BC648610032EC6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF80D3491BC648610032EC6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF80D34A1BC648610032EC6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF80D3631BC648610032EC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF80D3641BC648610032EC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF80D3661BC648610032EC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CALayer视觉效果以及变换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuanhao.CALayer--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF80D3671BC648610032EC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CALayer视觉效果以及变换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuanhao.CALayer--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF80D3691BC648610032EC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CALayer视觉效果以及变换Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuanhao.CALayer--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CALayer视觉效果以及变换.app/CALayer视觉效果以及变换";
+			};
+			name = Debug;
+		};
+		EF80D36A1BC648610032EC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CALayer视觉效果以及变换Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuanhao.CALayer--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CALayer视觉效果以及变换.app/CALayer视觉效果以及变换";
+			};
+			name = Release;
+		};
+		EF80D36C1BC648610032EC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CALayer视觉效果以及变换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuanhao.CALayer--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CALayer视觉效果以及变换";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF80D36D1BC648610032EC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CALayer视觉效果以及变换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuanhao.CALayer--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CALayer视觉效果以及变换";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF80D3381BC648610032EC6C /* Build configuration list for PBXProject "CALayer视觉效果以及变换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF80D3631BC648610032EC6C /* Debug */,
+				EF80D3641BC648610032EC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF80D3651BC648610032EC6C /* Build configuration list for PBXNativeTarget "CALayer视觉效果以及变换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF80D3661BC648610032EC6C /* Debug */,
+				EF80D3671BC648610032EC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF80D3681BC648610032EC6C /* Build configuration list for PBXNativeTarget "CALayer视觉效果以及变换Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF80D3691BC648610032EC6C /* Debug */,
+				EF80D36A1BC648610032EC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF80D36B1BC648610032EC6C /* Build configuration list for PBXNativeTarget "CALayer视觉效果以及变换UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF80D36C1BC648610032EC6C /* Debug */,
+				EF80D36D1BC648610032EC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF80D3351BC648610032EC6C /* Project object */;
+}
